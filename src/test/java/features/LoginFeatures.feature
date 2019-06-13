@@ -9,7 +9,7 @@ Feature: 1st Feature User able to login with valid password
     And  User clicks login button
     Then User reaches the home page
 
-    @Negative
+  @Negative
   Scenario: User login to the website with invalid credentials
     Given User has already navigated to the login page
     And User enters username as "darthvad"
