@@ -1,0 +1,230 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-13T16:23:42.340Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3219576973,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initialize()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User login to the website with valid credentials",
+        "description": "",
+        "id": "1st-feature-user-able-to-login-with-valid-password;user-login-to-the-website-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 735169937,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2283586778,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has already navigated to the login page",
+            "match": {
+              "location": "LoginSteps.user_has_already_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223091875,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"darthvader\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"darthvader\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148349329,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"Selenium12#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium12#\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3812992791,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5067836966,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User reaches the home page",
+            "match": {
+              "location": "LoginSteps.user_reaches_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-13T16:23:57.868Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1529675605,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initialize()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User login to the website with invalid credentials",
+        "description": "",
+        "id": "1st-feature-user-able-to-login-with-valid-password;user-login-to-the-website-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 707644279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1964461694,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has already navigated to the login page",
+            "match": {
+              "location": "LoginSteps.user_has_already_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121878254,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters username as \"darthvad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"darthvad\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113150468,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters password as \"Selenium12#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium12#\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567580967,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User reaches the home pa",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "1st Feature User able to login with valid password",
+    "description": "  User should be able to login to the site",
+    "id": "1st-feature-user-able-to-login-with-valid-password",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginFeatures.feature",
+    "tags": []
+  }
+]
